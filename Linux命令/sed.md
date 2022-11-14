@@ -194,4 +194,19 @@ $ sed -e '/test/h' -e '$Gexample
 
 
 
+## 3. 常见问题
+### Mac sed命令invalid command code错误
+Mac上使用sed命令时，报出sed: 1: "1.txt": invalid command code .错误。是由于Mac上sed命令与linux下稍有不同。Mac上默认提供修改时的备份机制。
+
++++解决方案+++
+1.如果目标文件不需要备份
+```shell
+sed -i "" 's/string_old/string_new/g' grep -rl 'string_old' ./
+```
+
+2.如果目标文件需要备份
+```shell
+sed -i ".bak" 's/string_old/string_new/g' grep -rl 'string_old' ./
+```
+
 
