@@ -118,14 +118,13 @@
 <br />
 
 
-  
 ### H5新增控件
-```
 1、type='url': 输入URL字段
   会自动验证url域的值，外观上与type="text"的input输入类型没有差异  [注意]IE9-浏览器及safari浏览器不支持
 ```html
 <input type="url" />
 ```
+  
 <br />
   
 2、type='tel': 用来输入电话号码
@@ -133,6 +132,7 @@
 ```html
 <input type="tel" name="tel" />
 ```
+  
 <br />
   
 3、type='search': 搜索字符串
@@ -140,6 +140,7 @@
 ```html
 <input type="search"  />
 ```
+  
 <br />
   
 4、type='email': 输入“email”地址
@@ -148,6 +149,7 @@
 <input type="email" />
 ```
 上面代码意思是：input元素类型为email地址;若用户输入的非email格式，那么在支持HTML5的浏览器中提交该表单时，会提示为不是合法格式
+  
 <br />
   
 5、type='color': 颜色选择器
@@ -156,6 +158,7 @@
 <input type="color" id="color" />
 ```
 上面代码意思是：input元素类型为颜色控件;使用color属性能直接调用系统的颜色调节窗口，默认为黑色
+  
 <br />
   
 6、type='number': 数字字段
@@ -164,6 +167,7 @@
 <input type="number" name="number" min="2" max="10" value="3"  />
 ```
 上面代码意思是：input元素类型为数字字段;用于输入数字的字段，其中min设定允许的最小值；max设定允许的最大值；value规定默认值；还有step可规定合法数字间隔
+  
 <br />
   
 
@@ -173,6 +177,7 @@
 <input type="range" name="range" min="0" max="10" step="1" value="" />
 ```
 上面代码意思是：input元素类型为输入数字控件;min属性指定最小值限制，max属性指定最大值限制，step属性规定合法数字间隔，value属性规定默认值
+  
 <br />
   
 
@@ -182,6 +187,7 @@
 <input type="month" value="2018-11" />
 ```
 上面代码意思是：input元素类型为年月控件;value属性用来控制年月
+  
 <br />
   
 9、type='date': 日期控件
@@ -190,6 +196,7 @@
 <input type="date" min="2018-01-01" max="2020-01-01" />
 ```
 上面代码意思是：input元素类型为日期控件;可用来选择或输入日期，包括（年/月/日）不包括时间；其中设定 min 属性控制开始日期，max 属性控制结束日期
+  
 <br />
   
 
@@ -199,6 +206,7 @@
 <input type="datetime" value="2018-11-30T22:47Z" />
 ```
 上面代码意思是：input元素类型为日期加时间控件;创建日期时间，包括（年/月/日/时/分/秒/零点几秒）
+  
 <br />
   
 
@@ -208,6 +216,7 @@
 <input type="datetime-local" value="2018-11-21 22:47"  />
 ```
 上面代码意思是：input元素类型为日期时间控件;创建本地日期时间，包括（年/月/日/时/分/秒/零点几秒）
+  
 <br />
   
 
@@ -216,6 +225,7 @@
 ```html
 <input type="time" />
 ```
+  
 <br />
   
 13、type='week': 周年控件
