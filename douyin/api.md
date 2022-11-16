@@ -1,22 +1,21 @@
 http://www.sger.net/
 
 
+**Rquest**
 ```
-//Request
 curl 'http://www.sger.net/api.php' \
   -H 'Accept: application/json, text/plain, */*' \
   -H 'Accept-Language: zh,en;q=0.9,zh-CN;q=0.8' \
   -H 'Connection: keep-alive' \
   -H 'Content-Type: application/x-www-form-urlencoded' \
-  -H 'Cookie: Hm_lvt_bf2ece9dea72bf5b9f7621bfc246e2e4=1668527846; Hm_lpvt_bf2ece9dea72bf5b9f7621bfc246e2e4=1668527846' \
-  -H 'Origin: http://www.sger.net' \
-  -H 'Referer: http://www.sger.net/' \
   -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36' \
   --data-raw '9.71 JII:/ 通过KubeSphere部署一个MySQL，一起来学习k8s。 # java # 程序员 # 后端开发 # 干货分享 # 每天学习一点点  https://v.douyin.com/rSjVjX2/ 复制此链接，打开Dou音搜索，直接观看视频！' \
   --compressed \
   --insecure
+ ```
  
- //Respose
+ **Respose**
+```
  {
   "code": 200,
   "msg": "无水印视频获取成功!",
