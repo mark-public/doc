@@ -10,3 +10,5 @@ https://kubesphere.io/zh/
 
 https://kubesphere.cloud/login/?redirect=%2Fconsole%2Fmanaged-cluster%2F
 
+
+https://www.cnblogs.com/demingblog/p/12905563.html
