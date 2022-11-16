@@ -24,6 +24,7 @@
 <input type="password" size="10" maxlength="10"  />
 ```
 上面代码意思是：input元素类型为密码输入框;元素长度等于10;最多只能输入10字符  
+
 <br />
   
 3、type='radio': 单选按钮
@@ -34,8 +35,10 @@
 人妖<input type="radio" value="人妖" name="single"  />
 ```
 上面代码意思是：input元素类型为单选按钮;其中value属性中的值用来设置用户选中该项目后提交到数据库中的值；拥有相同name属性的单选框为同一组，一个组里只能同时选中一个选项；而checked属性表示的是初始选项，在用户还没进行选中之前，初始值会选中“女”这个项目
+
 <br />
-  
+
+
 
 4、type='checkbox': 复选框
 复选框，允许用户从给定数目的选择中选一个或多个选项，同一组选项按钮，name值一定要一致
@@ -46,7 +49,10 @@
 北京<input type="checkbox" value="北京" name="city" />
 ```
 上面代码意思是：input元素类型为复选框;用户可以进行多个选项，其中value属性中的值用来设置用户选中该项目后提交到数据库中的值；name为控件的名称
+
 <br />
+
+
   
 5、type='button': 普通按钮
 普通按钮，定义可点击的按钮，但没有任何行为，常用于用户点击时调用JavaScript方法
@@ -54,7 +60,10 @@
 <input type="button" value="喜欢请点个赞吧" name="btn" onClick=""  />
 ```
 上面代码意思是：input元素类型为普通按钮;在value属性中输入的值为按钮上显示的文本；name代表该按钮的名称；onclick表示处理程序
+
 <br />
+
+
   
 6、type='submit': 提交按钮
   提交按钮，用于创建提交表单的按钮
@@ -62,7 +71,10 @@
 <input type="submit" value="提交" name="subBtn"  />
 ```
 上面代码意思是：input元素类型为提交按钮;提交按钮不需要设置onclick参数，在单击提交按钮时可以向服务器发送表单数据，数据会发送到表单的 action 属性中指定的页面；value属性中的值为按钮上显示的文字
+
 <br />
+
+
   
 7、type='reset': 重置按钮
 重置按钮，用于创建重置表单的按钮
@@ -70,15 +82,20 @@
 <input type="reset" value="重置按钮" name="reset"  />
 ```
 上面代码意思是：input元素类型为重置按钮;重置按钮的作用是点击之后表单会刷新回到默认状态，在value属性中输入的值为按钮上显示的文本
+
 <br />
-  
+
+
 8、type='image': 图像按钮   
  图像按钮，该类型可以设置width、height、src、alt这四个属性用图片作为提交按钮会一起发送点击在图片上的x和y坐标，这样可以与服务器端图片地图结合使用，如果图片有name属性，也会随坐标发送
 ```html
 <input type="image" src="" name="确定" width="90" hieght="30" />
 ```
 上面代码意思是：input元素类型为图像按钮;虽然显示是图片，实际是以图片的形式按钮；其中src是链接图片的路径；name为图片名称；width图片宽度；height图片高度；当按下图像按钮会以name中的值向服务器发送信息
+
 <br />
+
+
   
 9、type='hidden': 隐藏域
   隐藏域，定义隐藏输入类型用于在表单中增加对用户不可见，但需要提交的额外数据时，disabled属性无法与type="hidden"的input元素一起使用
@@ -86,17 +103,21 @@
 <input type="hidden" name="hidden" value="提交的值"  />
 ```
 上面代码意思是：input元素类型为隐藏域;隐藏域在页面上不显示，用来存储与传递表单的值，当用户提交表单时，隐藏域的内容会一起提交给处理程序
+
 <br />
-  
-  
+
+
+    
 10、type='file': 文件域
   文件，用于文件上传，
 ```html
 <input type="file" name="file"  accept="image/png,image/jpg,image/gif,image/JPEG" />
 ```
 上面代码意思是：input元素类型为文件域; accept属性表示可上传提交的文件类型
+
 <br />
-<br />
+
+
   
 ### H5新增控件
 ```
