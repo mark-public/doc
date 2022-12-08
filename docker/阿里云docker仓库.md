@@ -5,7 +5,7 @@
 - 1. 获取访问域名，基于当前的网络环境，选择对应的专有网络、公网或经典网络域名。  
 - 2. 在终端中输入访问凭证，登录Registry实例  
 ```shell
-$ sudo docker login --username=mayong_82@126.com --password=mark@2022 registry.cn-hangzhou.aliyuncs.com
+$ sudo docker login --username=用户名 --password=密码 registry.cn-hangzhou.aliyuncs.com
 ```
 
 #### 命名空间
